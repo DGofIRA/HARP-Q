@@ -1,0 +1,169 @@
+{
+  "candidate_count": 5,
+  "unit_of_observation": "candidate-level aggregate",
+  "units": {
+    "cost": "environment-specific normalized cost",
+    "success": "fraction of positive-demand node-periods completely fulfilled",
+    "planning_distance": "replenishment-quantity units, L1 distance over 36 periods",
+    "beta": "local order-to-demand variance ratio",
+    "rho": "lag-one correlation",
+    "turnover_field": "original field, lower-is-better sensitivity only"
+  },
+  "candidates": [
+    {
+      "candidate": "M01",
+      "operating": {
+        "MPR": {
+          "cost": 649.0,
+          "success": 0.26,
+          "turnover_field": 6.76
+        },
+        "TWN": {
+          "cost": 1779.0,
+          "success": 0.33,
+          "turnover_field": 7.12
+        },
+        "SCN": {
+          "cost": 1039.0,
+          "success": 0.29,
+          "turnover_field": 8.53
+        }
+      },
+      "nvp": {
+        "pf_before": 0.7,
+        "nf_before": 0.743,
+        "pf_after": 0.255,
+        "nf_after": 0.245
+      },
+      "planning_distance": 608.0,
+      "bg": {
+        "beta": 4.45,
+        "rho": 0.61
+      }
+    },
+    {
+      "candidate": "M02",
+      "operating": {
+        "MPR": {
+          "cost": 794.0,
+          "success": 0.54,
+          "turnover_field": 1.69
+        },
+        "TWN": {
+          "cost": 1048.0,
+          "success": 0.51,
+          "turnover_field": 1.45
+        },
+        "SCN": {
+          "cost": 1007.0,
+          "success": 0.47,
+          "turnover_field": 3.78
+        }
+      },
+      "nvp": {
+        "pf_before": -0.15,
+        "nf_before": 1.375,
+        "pf_after": 0.0,
+        "nf_after": 0.025
+      },
+      "planning_distance": 510.0,
+      "bg": {
+        "beta": 1.42,
+        "rho": 0.18
+      }
+    },
+    {
+      "candidate": "M03",
+      "operating": {
+        "MPR": {
+          "cost": 1090.0,
+          "success": 0.46,
+          "turnover_field": 4.6
+        },
+        "TWN": {
+          "cost": 1498.0,
+          "success": 0.42,
+          "turnover_field": 4.28
+        },
+        "SCN": {
+          "cost": 1376.0,
+          "success": 0.39,
+          "turnover_field": 4.89
+        }
+      },
+      "nvp": {
+        "pf_before": 1.0,
+        "nf_before": 0.925,
+        "pf_after": 1.0,
+        "nf_after": 0.8
+      },
+      "planning_distance": 1085.0,
+      "bg": {
+        "beta": 0.95,
+        "rho": 0.74
+      }
+    },
+    {
+      "candidate": "M04",
+      "operating": {
+        "MPR": {
+          "cost": 332.0,
+          "success": 0.25,
+          "turnover_field": 2.38
+        },
+        "TWN": {
+          "cost": 879.0,
+          "success": 0.27,
+          "turnover_field": 2.67
+        },
+        "SCN": {
+          "cost": 657.0,
+          "success": 0.23,
+          "turnover_field": 4.14
+        }
+      },
+      "nvp": {
+        "pf_before": -0.12,
+        "nf_before": 0.405,
+        "pf_after": 0.0,
+        "nf_after": 0.025
+      },
+      "planning_distance": 467.0,
+      "bg": {
+        "beta": 1.86,
+        "rho": 0.31
+      }
+    },
+    {
+      "candidate": "M05",
+      "operating": {
+        "MPR": {
+          "cost": 542.0,
+          "success": 0.29,
+          "turnover_field": 4.12
+        },
+        "TWN": {
+          "cost": 1549.0,
+          "success": 0.31,
+          "turnover_field": 3.95
+        },
+        "SCN": {
+          "cost": 773.0,
+          "success": 0.34,
+          "turnover_field": 6.05
+        }
+      },
+      "nvp": {
+        "pf_before": 0.0,
+        "nf_before": 0.0,
+        "pf_after": 0.0,
+        "nf_after": 0.0
+      },
+      "planning_distance": 495.0,
+      "bg": {
+        "beta": 4.92,
+        "rho": 0.57
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "description": "Archived method-analysis summaries (pre-analysis/simulation).",
+  "groups": [
+    {
+      "method": "HARP-Q",
+      "n_records": 30,
+      "cost": {
+        "mean": 690.22,
+        "reported_ci": [
+          682.84,
+          697.32
+        ]
+      },
+      "bullwhip": {
+        "mean": 1.504,
+        "reported_ci": [
+          1.457,
+          1.554
+        ]
+      },
+      "service": {
+        "mean": 0.927,
+        "reported_ci": [
+          0.92,
+          0.934
+        ]
+      }
+    },
+    {
+      "method": "Heuristic mix",
+      "n_records": 30,
+      "cost": {
+        "mean": 741.76,
+        "reported_ci": [
+          731.55,
+          752.4
+        ]
+      },
+      "bullwhip": {
+        "mean": 1.74,
+        "reported_ci": [
+          1.679,
+          1.797
+        ]
+      },
+      "service": {
+        "mean": 0.915,
+        "reported_ci": [
+          0.909,
+          0.92
+        ]
+      }
+    },
+    {
+      "method": "G-only",
+      "n_records": 30,
+      "cost": {
+        "mean": 780.11,
+        "reported_ci": [
+          766.14,
+          794.05
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.242,
+        "reported_ci": [
+          2.166,
+          2.319
+        ]
+      },
+      "service": {
+        "mean": 0.9,
+        "reported_ci": [
+          0.894,
+          0.907
+        ]
+      }
+    },
+    {
+      "method": "Arithmetic-Q",
+      "n_records": 30,
+      "cost": {
+        "mean": 801.45,
+        "reported_ci": [
+          788.39,
+          813.44
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.482,
+        "reported_ci": [
+          2.382,
+          2.579
+        ]
+      },
+      "service": {
+        "mean": 0.89,
+        "reported_ci": [
+          0.883,
+          0.896
+        ]
+      }
+    },
+    {
+      "method": "No-gate-H",
+      "n_records": 30,
+      "cost": {
+        "mean": 765.82,
+        "reported_ci": [
+          756.75,
+          775.87
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.186,
+        "reported_ci": [
+          2.093,
+          2.264
+        ]
+      },
+      "service": {
+        "mean": 0.898,
+        "reported_ci": [
+          0.891,
+          0.906
+        ]
+      }
+    },
+    {
+      "method": "Single-metric",
+      "n_records": 30,
+      "cost": {
+        "mean": 809.27,
+        "reported_ci": [
+          797.82,
+          819.98
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.657,
+        "reported_ci": [
+          2.551,
+          2.759
+        ]
+      },
+      "service": {
+        "mean": 0.889,
+        "reported_ci": [
+          0.88,
+          0.898
+        ]
+      }
+    },
+    {
+      "method": "Best-single-LLM",
+      "n_records": 30,
+      "cost": {
+        "mean": 895.15,
+        "reported_ci": [
+          877.77,
+          911.51
+        ]
+      },
+      "bullwhip": {
+        "mean": 3.126,
+        "reported_ci": [
+          2.978,
+          3.279
+        ]
+      },
+      "service": {
+        "mean": 0.865,
+        "reported_ci": [
+          0.857,
+          0.873
+        ]
+      }
+    },
+    {
+      "method": "All Human",
+      "n_records": 30,
+      "cost": {
+        "mean": 825.89,
+        "reported_ci": [
+          816.09,
+          834.11
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.167,
+        "reported_ci": [
+          2.107,
+          2.226
+        ]
+      },
+      "service": {
+        "mean": 0.882,
+        "reported_ci": [
+          0.877,
+          0.888
+        ]
+      }
+    },
+    {
+      "method": "All LLM",
+      "n_records": 30,
+      "cost": {
+        "mean": 899.53,
+        "reported_ci": [
+          885.45,
+          915.22
+        ]
+      },
+      "bullwhip": {
+        "mean": 3.372,
+        "reported_ci": [
+          3.255,
+          3.493
+        ]
+      },
+      "service": {
+        "mean": 0.861,
+        "reported_ci": [
+          0.856,
+          0.867
+        ]
+      }
+    },
+    {
+      "method": "Reverse mix",
+      "n_records": 30,
+      "cost": {
+        "mean": 1014.88,
+        "reported_ci": [
+          999.54,
+          1030.19
+        ]
+      },
+      "bullwhip": {
+        "mean": 3.985,
+        "reported_ci": [
+          3.846,
+          4.13
+        ]
+      },
+      "service": {
+        "mean": 0.841,
+        "reported_ci": [
+          0.833,
+          0.85
+        ]
+      }
+    },
+    {
+      "method": "Random",
+      "n_records": 30,
+      "cost": {
+        "mean": 922.95,
+        "reported_ci": [
+          898.35,
+          946.47
+        ]
+      },
+      "bullwhip": {
+        "mean": 3.379,
+        "reported_ci": [
+          3.196,
+          3.564
+        ]
+      },
+      "service": {
+        "mean": 0.859,
+        "reported_ci": [
+          0.847,
+          0.871
+        ]
+      }
+    }
+  ]
+}

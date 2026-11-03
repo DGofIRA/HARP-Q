@@ -1,0 +1,64 @@
+{
+  "description": "Historical human-extension group summaries.",
+  "person_overlap_between_blocks": null,
+  "mpr": [
+    {
+      "mode": "Control",
+      "n": 68,
+      "planning_distance": {
+        "mean": 612,
+        "sd": 148
+      }
+    },
+    {
+      "mode": "Evaluator",
+      "n": 66,
+      "planning_distance": {
+        "mean": 503,
+        "sd": 121
+      }
+    },
+    {
+      "mode": "Recommender",
+      "n": 66,
+      "planning_distance": {
+        "mean": 671,
+        "sd": 160
+      }
+    }
+  ],
+  "bg": [
+    {
+      "configuration": "LLM execution / Human supervision",
+      "n": 70,
+      "cost": {
+        "mean": 702.6,
+        "sd": 108.3
+      },
+      "bullwhip": {
+        "mean": 1.61,
+        "sd": 0.44
+      }
+    },
+    {
+      "configuration": "Human execution / LLM supervision",
+      "n": 66,
+      "cost": {
+        "mean": 1014.5,
+        "sd": 152.9
+      },
+      "bullwhip": {
+        "mean": 3.88,
+        "sd": 0.71
+      }
+    },
+    {
+      "configuration": "All Human",
+      "n": 64,
+      "cost": {
+        "mean": 820.4,
+        "sd": 119.5
+      }
+    }
+  ]
+}

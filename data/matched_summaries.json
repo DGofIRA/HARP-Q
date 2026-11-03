@@ -1,0 +1,195 @@
+{
+  "description": "Constructed supplementary matched-placement and interaction summaries.",
+  "units": {
+    "cost": "normalized holding/shortage cost per node over 36 periods",
+    "bullwhip": "factory-order/external-demand variance ratio",
+    "service": "immediate quantity fill fraction",
+    "planning_distance": "replenishment-quantity units, L1 distance over 36 periods"
+  },
+  "sd_unit": "30 scenario or participant records",
+  "inference_unit": "10 teams",
+  "shared_bg_mpr_cohort": true,
+  "deployment_slots": {
+    "L01": "M05",
+    "L02": "M02",
+    "L03": "M04"
+  },
+  "bg": [
+    {
+      "condition": "K",
+      "roles": [
+        "L01",
+        "L02",
+        "H3"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 746.53,
+        "sd": 92.77
+      },
+      "bullwhip": {
+        "mean": 1.535,
+        "sd": 0.423
+      },
+      "service": {
+        "mean": 0.9174,
+        "sd": 0.0179
+      }
+    },
+    {
+      "condition": "M",
+      "roles": [
+        "L01",
+        "H2",
+        "H3"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 769.47,
+        "sd": 92.36
+      },
+      "bullwhip": {
+        "mean": 1.901,
+        "sd": 0.398
+      },
+      "service": {
+        "mean": 0.91,
+        "sd": 0.0207
+      }
+    },
+    {
+      "condition": "T",
+      "roles": [
+        "H1",
+        "H2",
+        "H3"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 840.56,
+        "sd": 102.56
+      },
+      "bullwhip": {
+        "mean": 2.181,
+        "sd": 0.479
+      },
+      "service": {
+        "mean": 0.8869,
+        "sd": 0.0154
+      }
+    },
+    {
+      "condition": "A",
+      "roles": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 866.18,
+        "sd": 96.3
+      },
+      "bullwhip": {
+        "mean": 2.657,
+        "sd": 0.367
+      },
+      "service": {
+        "mean": 0.8798,
+        "sd": 0.0178
+      }
+    },
+    {
+      "condition": "C",
+      "roles": [
+        "L01",
+        "L02",
+        "L02"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 844.99,
+        "sd": 90.58
+      },
+      "bullwhip": {
+        "mean": 2.646,
+        "sd": 0.366
+      },
+      "service": {
+        "mean": 0.883,
+        "sd": 0.018
+      }
+    },
+    {
+      "condition": "R",
+      "roles": [
+        "H1",
+        "L02",
+        "L03"
+      ],
+      "n_scenarios": 30,
+      "n_teams": 10,
+      "cost": {
+        "mean": 987.32,
+        "sd": 85.75
+      },
+      "bullwhip": {
+        "mean": 3.786,
+        "sd": 0.411
+      },
+      "service": {
+        "mean": 0.8451,
+        "sd": 0.0222
+      }
+    }
+  ],
+  "mpr": [
+    {
+      "mode": "Control",
+      "n_profiles": 30,
+      "n_teams": 10,
+      "planning_distance": {
+        "mean": 599.43,
+        "sd": 124.63,
+        "cluster_se": 32.0,
+        "ci": [
+          527.05,
+          671.82
+        ]
+      }
+    },
+    {
+      "mode": "Evaluator",
+      "n_profiles": 30,
+      "n_teams": 10,
+      "planning_distance": {
+        "mean": 495.17,
+        "sd": 127.11,
+        "cluster_se": 31.24,
+        "ci": [
+          424.49,
+          565.84
+        ]
+      }
+    },
+    {
+      "mode": "Recommender",
+      "n_profiles": 30,
+      "n_teams": 10,
+      "planning_distance": {
+        "mean": 651.07,
+        "sd": 109.84,
+        "cluster_se": 30.35,
+        "ci": [
+          582.41,
+          719.72
+        ]
+      }
+    }
+  ]
+}

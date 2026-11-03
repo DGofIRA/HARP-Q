@@ -1,0 +1,33 @@
+{
+  "format_version": "1.0",
+  "candidate_identifier_pattern": "^M[0-9]{2}$",
+  "roles": {
+    "R1": "demand-fulfillment execution",
+    "R2": "inventory-buffer coordination",
+    "R3": "replenishment-planning supervision"
+  },
+  "capabilities": {
+    "G": "general operating capability",
+    "U": "unbiasedness and anti-anchoring",
+    "P": "dynamic planning",
+    "S": "system stability",
+    "Psi": "G * P * S"
+  },
+  "null_semantics": "unavailable or not applicable; never a numerical zero",
+  "p_value_encoding": {
+    "operator": "eq or lt",
+    "value": "reported numerical value or strict upper bound"
+  },
+  "files": [
+    "assignments.json",
+    "historical_human.json",
+    "historical_methods.json",
+    "historical_placement.json",
+    "matched_summaries.json",
+    "nvp_behavior.json",
+    "paired_contrasts.json",
+    "qualification_inputs.json",
+    "qualification_scores.json",
+    "sensitivity.json"
+  ]
+}

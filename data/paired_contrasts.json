@@ -1,0 +1,545 @@
+{
+  "description": "Contrasts for the constructed supplementary matched examples.",
+  "interval_level": 0.95,
+  "interval_coverage": "marginal",
+  "bootstrap_unit": "whole team",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261021,
+  "rounding": "Displayed means, SDs, SEs and interval endpoints are rounded separately.",
+  "contrasts": [
+    {
+      "environment": "BG",
+      "contrast": "K-A",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -119.65,
+      "team_sd": 49.62,
+      "se": 15.69,
+      "t_ci": [
+        -155.15,
+        -84.15
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "reporting_family": true,
+      "bootstrap_ci": [
+        -148.1,
+        -90.07
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-A",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -1.1218,
+      "team_sd": 0.1701,
+      "se": 0.0538,
+      "t_ci": [
+        -1.2436,
+        -1.0001
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -1.2257,
+        -1.0286
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-A",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0376,
+      "team_sd": 0.0105,
+      "se": 0.0033,
+      "t_ci": [
+        0.0301,
+        0.0451
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        0.031,
+        0.0431
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "M-T",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -71.09,
+      "team_sd": 50.12,
+      "se": 15.85,
+      "t_ci": [
+        -106.95,
+        -35.24
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.002
+      },
+      "holm_p": {
+        "operator": "eq",
+        "value": 0.002
+      },
+      "reporting_family": true,
+      "bootstrap_ci": [
+        -101.08,
+        -42.43
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "M-T",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -0.2797,
+      "team_sd": 0.2446,
+      "se": 0.0774,
+      "t_ci": [
+        -0.4547,
+        -0.1047
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.006
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.416,
+        -0.127
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "M-T",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0231,
+      "team_sd": 0.0155,
+      "se": 0.0049,
+      "t_ci": [
+        0.012,
+        0.0342
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        0.0138,
+        0.0319
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-M",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -22.94,
+      "team_sd": 56.15,
+      "se": 17.76,
+      "t_ci": [
+        -63.11,
+        17.23
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.229
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -53.96,
+        10.88
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-M",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -0.3659,
+      "team_sd": 0.2271,
+      "se": 0.0718,
+      "t_ci": [
+        -0.5284,
+        -0.2035
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.4907,
+        -0.2307
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-M",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0075,
+      "team_sd": 0.014,
+      "se": 0.0044,
+      "t_ci": [
+        -0.0025,
+        0.0175
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.126
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.001,
+        0.0152
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "A-C",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 21.18,
+      "team_sd": 58.31,
+      "se": 18.44,
+      "t_ci": [
+        -20.53,
+        62.9
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.28
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -14.4,
+        54.3
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "A-C",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0112,
+      "team_sd": 0.2708,
+      "se": 0.0856,
+      "t_ci": [
+        -0.1826,
+        0.2049
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.899
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.1407,
+        0.1753
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "A-C",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -0.0032,
+      "team_sd": 0.0113,
+      "se": 0.0036,
+      "t_ci": [
+        -0.0113,
+        0.0049
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.401
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.0095,
+        0.0037
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-T",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -94.03,
+      "team_sd": 48.67,
+      "se": 15.39,
+      "t_ci": [
+        -128.85,
+        -59.22
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -120.67,
+        -64.16
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-T",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -0.6456,
+      "team_sd": 0.3239,
+      "se": 0.1024,
+      "t_ci": [
+        -0.8773,
+        -0.4139
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -0.8295,
+        -0.4522
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-T",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0305,
+      "team_sd": 0.0151,
+      "se": 0.0048,
+      "t_ci": [
+        0.0197,
+        0.0414
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        0.0216,
+        0.0392
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-R",
+      "outcome": "cost",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -240.79,
+      "team_sd": 67.42,
+      "se": 21.32,
+      "t_ci": [
+        -289.02,
+        -192.56
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -279.15,
+        -200.18
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-R",
+      "outcome": "bullwhip",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -2.2511,
+      "team_sd": 0.3312,
+      "se": 0.1047,
+      "t_ci": [
+        -2.488,
+        -2.0142
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -2.4524,
+        -2.0614
+      ]
+    },
+    {
+      "environment": "BG",
+      "contrast": "K-R",
+      "outcome": "service",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 0.0723,
+      "team_sd": 0.0119,
+      "se": 0.0038,
+      "t_ci": [
+        0.0638,
+        0.0808
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        0.0655,
+        0.0795
+      ]
+    },
+    {
+      "environment": "MPR",
+      "contrast": "Evaluator-Control",
+      "outcome": "planning_distance",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -104.27,
+      "team_sd": 59.84,
+      "se": 18.92,
+      "t_ci": [
+        -147.08,
+        -61.46
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "reporting_family": true,
+      "bootstrap_ci": [
+        -139.9,
+        -70.07
+      ]
+    },
+    {
+      "environment": "MPR",
+      "contrast": "Recommender-Control",
+      "outcome": "planning_distance",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": 51.63,
+      "team_sd": 75.72,
+      "se": 23.94,
+      "t_ci": [
+        -2.53,
+        105.8
+      ],
+      "p": {
+        "operator": "eq",
+        "value": 0.059
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        7.8,
+        95.53
+      ]
+    },
+    {
+      "environment": "MPR",
+      "contrast": "Evaluator-Recommender",
+      "outcome": "planning_distance",
+      "n_pairs": 30,
+      "n_teams": 10,
+      "df": 9,
+      "mean_difference": -155.9,
+      "team_sd": 92.78,
+      "se": 29.34,
+      "t_ci": [
+        -222.27,
+        -89.53
+      ],
+      "p": {
+        "operator": "lt",
+        "value": 0.001
+      },
+      "holm_p": null,
+      "reporting_family": false,
+      "bootstrap_ci": [
+        -209.24,
+        -100.6
+      ]
+    }
+  ]
+}

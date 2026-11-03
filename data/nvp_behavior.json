@@ -1,0 +1,100 @@
+{
+  "unit_of_observation": "candidate-level coefficient",
+  "candidates": [
+    {
+      "candidate": "M01",
+      "pf_before": {
+        "anchoring": 0.7,
+        "chasing": 0.307
+      },
+      "nf_before": {
+        "anchoring": 0.743,
+        "chasing": 0.772
+      },
+      "pf_after": {
+        "anchoring": 0.255,
+        "chasing": 0.262
+      },
+      "nf_after": {
+        "anchoring": 0.245,
+        "chasing": 0.335
+      }
+    },
+    {
+      "candidate": "M02",
+      "pf_before": {
+        "anchoring": -0.15,
+        "chasing": 0.406
+      },
+      "nf_before": {
+        "anchoring": 1.375,
+        "chasing": 0.393
+      },
+      "pf_after": {
+        "anchoring": 0,
+        "chasing": 0
+      },
+      "nf_after": {
+        "anchoring": 0.025,
+        "chasing": 0.387
+      }
+    },
+    {
+      "candidate": "M03",
+      "pf_before": {
+        "anchoring": 1,
+        "chasing": 0
+      },
+      "nf_before": {
+        "anchoring": 0.925,
+        "chasing": 0.182
+      },
+      "pf_after": {
+        "anchoring": 1,
+        "chasing": 0
+      },
+      "nf_after": {
+        "anchoring": 0.8,
+        "chasing": 0.488
+      }
+    },
+    {
+      "candidate": "M04",
+      "pf_before": {
+        "anchoring": -0.12,
+        "chasing": 0.525
+      },
+      "nf_before": {
+        "anchoring": 0.405,
+        "chasing": 0.04
+      },
+      "pf_after": {
+        "anchoring": 0,
+        "chasing": 0
+      },
+      "nf_after": {
+        "anchoring": 0.025,
+        "chasing": 0.066
+      }
+    },
+    {
+      "candidate": "M05",
+      "pf_before": {
+        "anchoring": 0,
+        "chasing": 0
+      },
+      "nf_before": {
+        "anchoring": 0,
+        "chasing": 0
+      },
+      "pf_after": {
+        "anchoring": 0,
+        "chasing": 0
+      },
+      "nf_after": {
+        "anchoring": 0,
+        "chasing": 0
+      }
+    }
+  ]
+}

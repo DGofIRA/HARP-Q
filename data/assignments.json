@@ -1,0 +1,61 @@
+{
+  "one_instance_per_candidate": {
+    "roles": [
+      "Q1",
+      "Q2",
+      "Q3"
+    ],
+    "objective": 1.5017980437284233,
+    "optima": [
+      [
+        "M05",
+        "M02",
+        "M04"
+      ]
+    ],
+    "best_second_gap": 0.07804380333531014,
+    "near_tolerance": 0.02,
+    "near_optimal_count": 1,
+    "feasible_assignments": 60
+  },
+  "candidate_M02_capacity_two": {
+    "roles": [
+      "Q1",
+      "Q2",
+      "Q3"
+    ],
+    "objective": 1.6164559049257634,
+    "optima": [
+      [
+        "M05",
+        "M02",
+        "M02"
+      ]
+    ],
+    "best_second_gap": 0.11465786119734012,
+    "near_tolerance": 0.02,
+    "near_optimal_count": 1,
+    "feasible_assignments": 72
+  },
+  "human_supervision_fixed": {
+    "roles": [
+      "Q1",
+      "Q2"
+    ],
+    "objective": 1.352272727272727,
+    "optima": [
+      [
+        "M05",
+        "M02"
+      ]
+    ],
+    "best_second_gap": 0.19270166453265025,
+    "near_tolerance": 0.02,
+    "near_optimal_count": 1,
+    "feasible_assignments": 20,
+    "fixed_role": {
+      "R3": "Human"
+    },
+    "objective_scope": "R1 and R2 only"
+  }
+}

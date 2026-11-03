@@ -1,0 +1,132 @@
+{
+  "description": "Historical placement summaries, separate from the matched block.",
+  "n_records": 176,
+  "note": "Group allocation and dependence are unresolved; intervals are not paired-difference intervals.",
+  "groups": [
+    {
+      "configuration": "All Human",
+      "n_records": 30,
+      "cost": {
+        "mean": 829.58,
+        "reported_ci": [
+          793.19,
+          867.15
+        ]
+      },
+      "bullwhip": {
+        "mean": 2.188,
+        "reported_ci": [
+          1.976,
+          2.39
+        ]
+      },
+      "service": {
+        "mean": 0.889,
+        "reported_ci": [
+          0.878,
+          0.899
+        ]
+      }
+    },
+    {
+      "configuration": "All LLM",
+      "n_records": 30,
+      "cost": {
+        "mean": 886.31,
+        "reported_ci": [
+          846.68,
+          929.11
+        ]
+      },
+      "bullwhip": {
+        "mean": 3.347,
+        "reported_ci": [
+          3.022,
+          3.736
+        ]
+      },
+      "service": {
+        "mean": 0.862,
+        "reported_ci": [
+          0.853,
+          0.872
+        ]
+      }
+    },
+    {
+      "configuration": "Heuristic Mix",
+      "n_records": 40,
+      "cost": {
+        "mean": 717.76,
+        "reported_ci": [
+          691.75,
+          744.84
+        ]
+      },
+      "bullwhip": {
+        "mean": 1.837,
+        "reported_ci": [
+          1.682,
+          1.966
+        ]
+      },
+      "service": {
+        "mean": 0.905,
+        "reported_ci": [
+          0.897,
+          0.913
+        ]
+      }
+    },
+    {
+      "configuration": "Reverse Mix",
+      "n_records": 30,
+      "cost": {
+        "mean": 998.24,
+        "reported_ci": [
+          947.56,
+          1052.32
+        ]
+      },
+      "bullwhip": {
+        "mean": 4.057,
+        "reported_ci": [
+          3.673,
+          4.481
+        ]
+      },
+      "service": {
+        "mean": 0.842,
+        "reported_ci": [
+          0.832,
+          0.852
+        ]
+      }
+    },
+    {
+      "configuration": "Original HARP-Q label",
+      "n_records": 46,
+      "cost": {
+        "mean": 699.58,
+        "reported_ci": [
+          678.03,
+          721.15
+        ]
+      },
+      "bullwhip": {
+        "mean": 1.478,
+        "reported_ci": [
+          1.34,
+          1.624
+        ]
+      },
+      "service": {
+        "mean": 0.925,
+        "reported_ci": [
+          0.916,
+          0.933
+        ]
+      }
+    }
+  ]
+}
