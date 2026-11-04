@@ -20,6 +20,7 @@
   },
   "files": [
     "assignments.json",
+    "bg_protocol.json",
     "historical_human.json",
     "historical_methods.json",
     "historical_placement.json",

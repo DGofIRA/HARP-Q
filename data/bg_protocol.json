@@ -1,0 +1,54 @@
+{
+  "environment": "matched BG placement",
+  "nodes": ["retailer", "wholesaler", "distributor", "factory"],
+  "periods": 36,
+  "initial_on_hand_per_node": 50.0,
+  "initial_backlog_per_node": 0.0,
+  "initial_receipts_per_pipeline": [
+    {"due_period": 1, "quantity": 50.0},
+    {"due_period": 2, "quantity": 50.0}
+  ],
+  "pipelines": [
+    {"source": "wholesaler", "destination": "retailer", "type": "shipping"},
+    {"source": "distributor", "destination": "wholesaler", "type": "shipping"},
+    {"source": "factory", "destination": "distributor", "type": "shipping"},
+    {"source": "production", "destination": "factory", "type": "production"}
+  ],
+  "order_information_delay": 2,
+  "shipping_lead_time": 2,
+  "production_lead_time": 2,
+  "event_due_period": "submission_or_dispatch_period + corresponding_delay",
+  "period_sequence": [
+    "receive_due_goods_and_production",
+    "fulfill_current_demand_and_existing_backlog",
+    "update_on_hand_and_backlog",
+    "submit_approved_replenishment_orders_and_production_plans",
+    "charge_holding_and_backlog_costs"
+  ],
+  "actions": {"lower": 0.0, "upper": 200.0, "integer_rounding": false},
+  "cost": {"holding_rate": 1.0, "backlog_rate": 2.0, "normalization_nodes": 4},
+  "terminal": {
+    "retain_backlog": true,
+    "retain_undelivered_pipelines": true,
+    "retain_pending_order_messages": true,
+    "post_horizon_processing": false
+  },
+  "service": {
+    "numerator": "external demand immediately fulfilled within periods 1 through 36",
+    "denominator": "total external demand within periods 1 through 36",
+    "include_backlog_clearance": false,
+    "include_undelivered_goods": false,
+    "zero_demand_value": null
+  },
+  "bullwhip": {
+    "numerator": "sample variance of executed factory production plans over periods 1 through 36",
+    "denominator": "sample variance of external demand over periods 1 through 36",
+    "zero_demand_variance_value": null
+  },
+  "explicit_run_inputs": [
+    "initial order-message arrivals at each upstream node in periods 1 and 2",
+    "fulfillment priority between existing backlog and current demand",
+    "realized external demand by period",
+    "approved node orders by period"
+  ]
+}
